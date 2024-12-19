@@ -19,3 +19,8 @@ def process_data (data: int | str) -> str:
 
 print(process_data("string"))
 print(process_data(5))
+
+numbers = [1, 2, 3, 4, 5]
+
+even_numbers = [num for num in numbers if num % 2 == 0]
+print(even_numbers)
